@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compra de Produtos</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa; 
+      color: #333; 
+    }
+
+      nav ul {
+        list-style-type: none;
+        background-color: #343a40; 
+        text-align: center;
+        padding: 10px 0;
+      }
+  
+      nav ul li {
+        display: inline;
+        margin-right: 20px;
+      }
+  
+      nav ul li a {
+        color: #fff; 
+        text-decoration: none;
+      }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .racao {
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .racao img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+    .racao h2 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    .racao p {
+      margin-bottom: 10px;
+    }
+    .racao button {
+      background-color: #ff9900;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .racao button:hover {
+      background-color: #717226;
+    }
+  </style>
+</head>
+<header>
+    <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+        </ul>
+      </nav>
+</header>
+<body>
+  <div class="container">
+    <div class="racao">
+      <img src="/imagens/DogP.png" alt="Ração P">
+      <h2>Ração kid</h2>
+      <p>Ração para filhotes, nutritiva para ajudar no crescimento e saude do seu pet!</p>
+      <p>Preço: R$ 29,99</p>
+      <a href="racaoP.html"><button type="button">Adicionar ao Carrinho</button></a>
+    </div>
+
+    <div class="racao">
+      <img src="/imagens/DogM.png" alt="Ração M">
+      <h2>Ração para cães adultos de medio porte</h2>
+      <p>Uma ração para cães entre 8 e 16 quilos, de porte pequeno e medio.</p>
+      <p>Preço: R$ 49,99</p>
+      <a href="racaoM.html"><button type="button">Adicionar ao Carrinho</button></a>
+    </div>
+
+    <div class="racao">
+      <img src="/imagens/DogG.jpg" alt="Ração G">
+      <h2>Ração para câes adultos de grande porte</h2>
+      <p>Ração para a cães adutos de grande porte que pesam entre 17 e 30 quilos seu cão mais forte e saudavel!</p>
+      <p>Atenção essa ração tem um teor calorico maior que as demais do mercado, utulize a medida de 15g por quilo do seu pet!</p>
+      <p>Preço: R$ 89,99</p>
+      <a href="racaoL.html"><button type="button">Adicionar ao Carrinho</button></a>
+    </div>
+
+  </div>
+</body>
+</html>

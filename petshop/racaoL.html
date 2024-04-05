@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detalhes do Produto</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    header, footer {
+      background-color: #000;
+      color: #fff;
+      padding: 10px 20px;
+      width: 100%;
+      text-align: center;
+    }
+    .container {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .racao-img {
+      width: 200px;
+      height: 200px;
+      margin-bottom: 20px;
+    }
+    .racao-detalhe {
+      text-align: left;
+    }
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    input[type="number"] {
+      width: 100px;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+    button {
+      background-color: #000;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>VOLTE</h1>
+  </header>
+  
+  <div class="container">
+    <img class="racao-img" src="/imagens/DogG.jpg" alt="Produto">
+    <div class="racao-detalhe">
+      <h2>Ração para cães de grande porte a partir de 17k</h2>
+      <p>Ração para a cães adutos de grande porte que pesam entre 17 e 30 quilos seu cão mais forte e saudavel!</p>
+      <p>Atenção essa ração tem um teor calorico maior que as demais do mercado, utulize a medida de 15g por quilo do seu pet!</p>
+      <label for="price">Preço:</label>
+      <p>R$ 89,99</p>
+      <label for="delivery-time">Tempo de Entrega:</label>
+      <p>15 dias úteis</p>
+      <label for="quantity">Quantidade desejada:</label>
+      <input type="number" id="quantity" name="quantity" min="1" value="1">
+      <button type="button">Finalizar compra</button>
+    </div>
+  </div>
+
+  <footer>
+    <h1>SEMPRE!!</h1>
+  </footer>
+</body>
+</html>
